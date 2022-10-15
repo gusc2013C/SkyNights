@@ -240,7 +240,7 @@ _paginate: false
 ![bg right h:10cm](https://upload.wikimedia.org/wikipedia/commons/f/f2/IPMI-Block-Diagram.png)
 
 
-* 卫星控制器包含了IPMB(Intelligent Platform Management Bus/Bridge) - 一个I²C (Inter-Integrated Circuit)加强实现的系统接口链接到基板管理控制器(BMC)，基板管理控制器(BMC) 也能与 远程管理控制协议(RMCP) - 一个在此规格内的特殊有线协议一同被管理。（不是人话）
+* 同一设备内的卫星控制器通过称为智能平台管理总线/桥 (IPMB) 的系统接口连接到 BMC，这是 I²C 的一个增强实施。 BMC 通过智能平台管理控制器总线/桥(IPMC)连接到卫星控制器或另一个设备中的另一个 BMC。它可以通过远程管理控制协议 (RMCP) 进行管理。
 
 ---
 ##### BMC
