@@ -13,15 +13,81 @@ style: |
 _class: lead gaia
 _paginate: false
 -->
-# **企业级计算机硬件杂谈**  
+# **企业级计算机硬件杂谈**
 ### 柳迪潇
 
 </br></br>
 
 ---
-## 服务器" ("Server")
+## "服务器" ("Server")
+
+啥是服务器？
+
+TOP500 June 2022 #1
+**FRONTIER**
+
+Core(s): 8,730,112
+Rmax: 1,102 PFlop/s
+
+https://www.olcf.ornl.gov/frontier/
+
+![bg right h:12cm](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Frontier_Supercomputer_%281%29.jpg/2560px-Frontier_Supercomputer_%281%29.jpg)
+
+---
+## "服务器" ("Server")
+
+啥是服务器？
+
+**Dell R730**
+
+"Skynet" Network Infra
+
+![bg right h:11cm](https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-enterprise-products/enterprise-systems/poweredge/poweredge-r730/pdp/server-poweredge-r730-pdp-ng-hero-static-v2.jpg?hei=402&qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=pjpg)
+
+---
+## "服务器" ("Server")
+
+啥是服务器？
+
+**❤ Home ❤ Made ❤**
+Supermicro H11 DSi
+Epyc 7402
+
+ESXi Server
+
+![bg right h:9cm](image/supermicro.jpg)
+
+---
+## "服务器" ("Server")
+
+啥是服务器？
+
+**RockPi S**
+3D Printer on Air
+TCP-Serial
+
+![bg right h:8cm](image/rockpi.jpg)
+
+---
+## "服务器" ("Server")
+
+啥是服务器？
+
+**Raspberry Pi Zero W**
+Lights on/off
+
+Core(s):
+Rmax: 0.247 GFlop/s
+
+https://web.eece.maine.edu/~vweaver/group/green_machines.html
+
+![bg right h:4cm](image/pi0.jpg)
+
+---
+
 ### "企业级"
-</br>
+
+<br></br>
 
 - 免工具维护
 * 冗余设计
@@ -31,9 +97,16 @@ _paginate: false
 
 ---
 
+### "起夜级"
+
+![bg h:12cm](image/potato.jfif)
+
+---
+
 ## 物理结构
 
 ### 分类
+
 </br>
 
 - 机架式(Rack)
@@ -65,16 +138,18 @@ _paginate: false
 ![bg w:15cm](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/IBM_HS20_blade_server.jpg/1920px-IBM_HS20_blade_server.jpg)
 
 ---
-## 散热
-#### 风道设计 (Cover)
+## 以 R730 为例
+
 </br></br>
 
-####  $~~~~~~~~~~$以 R730 为例 
+#### $\quad$ 风道设计 (Cover)
 
-![bg right w:15cm](https://cloud.tsinghua.edu.cn/seafhttp/files/d57715c2-0fe4-4837-939e-083859eab96a/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20003038.png)
+
+
+![bg right w:18cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20003038.png)
 
 ---
-## 散热
+## 以 R730 为例
 
 ![bg w:15cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20003249.png)
 
@@ -96,14 +171,14 @@ _paginate: false
 ---
 ##### Intel
 
-![bg h:12cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20005952.png)
+![bg h:13cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20005952.png)
 
-![bg h:12cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20010157.png)
+![bg h:13cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20010157.png)
 
 ---
 ##### AMD
 
-![bg w:15cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20005912.png)
+![bg w:16cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20005912.png)
 
 ![bg w:15cm](https://cloud.tsinghua.edu.cn/thumbnail/6057def066574d83b9f6/1024/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-16%20010106.png)
 
@@ -112,7 +187,7 @@ _paginate: false
 </br></br>
 
 
-# Thx rxgg!!!!
+##### Thx rxgg @王若溪!!!!
 ---
 ![bg](./image/内存_01.png)
 
@@ -177,11 +252,23 @@ _paginate: false
 
 ---
 #### 为什么SAS更适合应用在服务器和工作站上
-</br></br>
 
 * 读写速度
 - 价格
 * 智能技术
+- 外围硬件生态
+
+---
+
+##### jmicron 七宗罪
+
+他家的usb sata，pcie sata，sata raid控制器，sata port multiplexer只做到了“能用”的水平，但是价格低所以大家用的硬盘盒、易驱线里面基本都是这些
+
+##### Bug 大赏
+
+![w:30cm](image/sata_problems.png)
+
+[Multiply your problems with SATA Port Multipliers and cheap SATA controllers | TrueNAS Community](https://www.truenas.com/community/threads/multiply-your-problems-with-sata-port-multipliers-and-cheap-sata-controllers.96631/)
 
 ---
 #### RAID
@@ -197,7 +284,7 @@ _paginate: false
 #### M.2, U.2 & NVMe
 
 ##### M.2
-![h:12cm](https://ae01.alicdn.com/kf/H4ee7687701024be3899244d0a57ed1dfN/M-2-SSD-to-U-2-Adapter-2in1-M-2-NVMe-and-SATA-Bus-NGFF-SSD.jpg)
+![bg h:16cm](https://ae01.alicdn.com/kf/H4ee7687701024be3899244d0a57ed1dfN/M-2-SSD-to-U-2-Adapter-2in1-M-2-NVMe-and-SATA-Bus-NGFF-SSD.jpg)
 
 ---
 #### M.2, U.2 & NVMe
@@ -248,8 +335,11 @@ _paginate: false
 ![bg](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/ASPEED_AST2400_BMC_Baseboard_management_controller.jpg/1920px-ASPEED_AST2400_BMC_Baseboard_management_controller.jpg)
 
 ---
+
+## 我们来玩一玩 IPMI
+
+---
+
 ## RTFM
 
-Read The Fxxking Manual
-
-![h:11cm](https://upload.wikimedia.org/wikipedia/commons/7/78/Demotivational_RTFM_Prudentia_Statue_on_the_Brussels_town_hall_%2853522136%29.jpg)
+![bg h:15cm](https://upload.wikimedia.org/wikipedia/commons/7/78/Demotivational_RTFM_Prudentia_Statue_on_the_Brussels_town_hall_%2853522136%29.jpg)
